@@ -21,6 +21,7 @@ body{
 .depoimentos{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     margin-top: 80px;
 }
 
@@ -29,7 +30,7 @@ body{
     color: var(--cor-conteudo-depoimentos);
     width: 280px;
     height: 160px;
-    padding: 40px 20px 20px 20px;
+    padding: 30px 20px 20px 20px;
     border-radius: 5px;
 }
 
@@ -52,8 +53,7 @@ body{
 
 .imagem img{
     border-radius: 50%;
-    width: 70%;
-    
+    width: 65%;
 }
 
 .nome h4, h5{
@@ -71,4 +71,8 @@ body{
     width: 260px;
     font-size: 15px;
     line-height: 20px;
+}
+
+@media(max-width: 100px){
+
 }
