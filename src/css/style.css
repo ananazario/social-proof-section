@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cor-titulo: hsl(300, 43%, 22%);
+    --cor-conteudo-depoimentos: hsl(0, 0%, 100%);
+    --cor-conteudo-verificado: hsl(333, 80%, 67%);
+
+    --fonte-padrao: 'League Spartan', sans-serif;
+}
+
+body{
+    font-family: var(--fonte-padrao);
+}
+
+/* DEPOIMENTOS */
+.depoimentos{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.colton-smiht, .irene-robers, .anne-wallace{
+    background-color: var(--cor-titulo);
+    color: var(--cor-conteudo-depoimentos);
+    width: 280px;
+    height: 160px;
+    padding: 40px 20px 20px 20px;
+    border-radius: 5px;
+}
+
+.irene-robers{
+    margin: 20px 0px 0px 20px ;
+}
+
+.anne-wallace{
+    margin: 40px 0px 0px 20px;
+}
+
+.perfil{
+    display: flex;
+    align-items: center;
+}
+
+.imagem{
+    width: 60px;
+}
+
+.imagem img{
+    border-radius: 50%;
+    width: 70%;
+    
+}
+
+.nome h4, h5{
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.nome h5{
+    color: var(--cor-conteudo-verificado);
+    font-weight: 400;
+}
+
+.colton-smiht p, .irene-robers p, .anne-wallace p{
+    margin-top: 20px;
+    width: 260px;
+    font-size: 15px;
+    line-height: 20px;
+}
