@@ -1,0 +1,47 @@
+.colton-smiht, .irene-robers, .anne-wallace{
+    background-color: var(--very-dark-magenta);
+    color: var(--white);
+    width: 280px;
+    height: 160px;
+    padding: 40px 20px 20px 20px;
+    border-radius: 5px;
+}
+
+.irene-robers{
+    margin: 20px 0px 0px 20px ;
+}
+
+.anne-wallace{
+    margin: 40px 0px 0px 20px;
+}
+
+.perfil{
+    display: flex;
+    align-items: center;
+}
+
+.imagem{
+    width: 60px;
+}
+
+.imagem img{
+    border-radius: 50%;
+    width: 65%;
+}
+
+.nome h4, h5{
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.nome h5{
+    color: var(--soft-pink);
+    font-weight: 400;
+}
+
+.colton-smiht p, .irene-robers p, .anne-wallace p{
+    margin-top: 20px;
+    width: 260px;
+    font-size: 15px;
+    line-height: 20px;
+}

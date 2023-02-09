@@ -1,0 +1,79 @@
+.sessao {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    min-height: 50vh;
+    margin: 0 10rem;
+}
+
+.sessao:first-child {
+    min-height: 50vh;
+    align-items: center;
+}
+
+.titulo-sessao p {
+    color: var(--dark-grayish-magenta);
+    font-weight: 700;
+}
+
+.avaliacoes {
+    width: 50vw;
+}
+
+.div-avaliacoes {
+    margin-bottom: .5rem;
+    animation: show .5s forwards;
+}
+
+.div-avaliacoes:first-child {
+    margin-right: 6rem;
+}
+
+.div-avaliacoes:nth-child(2n) {
+    margin-right: 3rem;
+    animation: show 1s forwards;
+}
+
+.div-avaliacoes:last-child {
+    animation: show 1.5s forwards;
+}
+
+.avaliacoes:last-child {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.div-avaliacoes div {
+    display: flex;
+    align-items: center;
+    background-color: var(--light-grayish-magenta);
+    border-radius: .5rem;
+    padding: .5rem 1rem;
+}
+
+.paragrafo-avaliacoes {
+    color: var(--very-dark-magenta);
+    font-weight: 700;
+}
+
+.titulo-sessao {
+    width: 25vw;
+}
+
+.titulo-principal {
+    color: var(--very-dark-magenta);
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+@keyframes show {
+    from {
+        opacity: 0;
+        transform: translate3d(-40px, 0, 0);
+    } to {
+        opacity: 1;
+        transform: translate3d(0,0,0);
+    }
+}

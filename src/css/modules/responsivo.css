@@ -1,0 +1,55 @@
+@media screen and (max-width: 1300px){
+    .midia-sessao{
+        justify-content: center;
+    }
+
+    .colton-smiht{
+        margin: 20px 0px 0px 20px ;
+    }
+
+    .irene-robers{
+        margin: 10px 0px 0px 20px ;
+    }
+
+    .anne-wallace{
+        margin: 10px 0px 50px 20px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .sessao {
+        margin: 0;
+        text-align: center;
+    }
+
+    .sessao div {
+        width: 80vw;
+        text-align: center;
+        margin: auto;
+    }
+    
+    .titulo-principal {
+        margin-top: 3rem;
+    } 
+
+    .titulo-sessao p {
+        margin: 1rem 0 1.5rem 0;
+    }
+
+    .div-avaliacoes div {
+        margin-bottom: 1rem;
+    }
+
+    .div-avaliacoes div {
+        padding: .2em;
+    }
+    
+    .div-avaliacoes:first-child,
+    .div-avaliacoes:nth-child(2n) {
+        margin-right: 0;
+    }
+    
+    .avaliacoes:last-child {
+        align-items: center;
+    }
+}
