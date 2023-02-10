@@ -1,4 +1,4 @@
-:root {
+/* :root {
     --very-dark-magenta: hsl(300, 43%, 22%);
     --soft-pink: hsl(333, 80%, 67%);
     --dark-grayish-magenta: hsl(303, 10%, 53%);
@@ -70,6 +70,7 @@
 }
 
 /* DEPOIMENTOS */
+/*
 .colton-smiht, .irene-robers, .anne-wallace{
     background-color: var(--cor-titulo);
     color: var(--cor-conteudo-depoimentos);
@@ -134,4 +135,4 @@
     .anne-wallace{
         margin: 10px 0px 50px 20px;
     }
-}
+} 
