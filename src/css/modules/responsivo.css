@@ -1,5 +1,5 @@
-@media screen and (max-width: 1300px){
-    .midia-sessao{
+/* @media screen and (max-width: 1300px){
+    .depoimentos{
         justify-content: center;
     }
 
@@ -14,7 +14,7 @@
     .anne-wallace{
         margin: 10px 0px 50px 20px;
     }
-}
+} */
 
 @media screen and (max-width: 900px) {
     .sessao {
@@ -52,5 +52,21 @@
     
     .avaliacoes:last-child {
         align-items: center;
+    }
+    
+    .depoimentos{
+        justify-content: center;
+    }
+
+    .colton-smiht{
+        margin: 20px 0px 0px 20px ;
+    }
+
+    .irene-robers{
+        margin: 10px 0px 0px 20px ;
+    }
+
+    .anne-wallace{
+        margin: 10px 0px 50px 20px;
     }
 }

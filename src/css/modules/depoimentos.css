@@ -1,3 +1,10 @@
+.depoimentos{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
 .colton-smiht, .irene-robers, .anne-wallace{
     background-color: var(--very-dark-magenta);
     color: var(--white);
